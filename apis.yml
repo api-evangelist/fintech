@@ -1,8 +1,28 @@
 aid: fintech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fintech.png
 name: Fintech
-description: 'Fintech is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Fin (fin.tech) is a crypto-native payments company that lets users and businesses move millions of
+  dollars instantly — to other Fin users, directly into bank accounts, or across crypto rails. It
+  provides business-grade payment rails that feel like a consumer payment app rather than crypto:
+  instant global settlement in seconds, native support to deposit and withdraw to bank accounts, and
+  send/receive of USDT, USDC, ETH, and BTC, while Fin abstracts the underlying crypto settlement
+  behind a clean fintech interface. Backed by Sequoia, Multicoin, and Pantera Capital, Fin operates a
+  private, auth-gated production API surface (api.fin.tech) and publishes an llms.txt for agents; it
+  does not currently publish a public developer portal, OpenAPI, or SDKs. Surfaced in the API
+  Evangelist network as a Pantera Capital portfolio company (sector: crypto) and enriched from its
+  public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/fintech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto
+- Payments
+- Stablecoins
+- Banking
+- Cross-Border Payments
+- Settlement
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.fin.tech/
+- type: TermsOfService
+  url: https://www.fin.tech/tos
+- type: PrivacyPolicy
+  url: https://www.fin.tech/privacy
+- type: LLMsTxt
+  url: llms/fintech-llms.txt
+- type: DomainSecurity
+  url: security/fintech-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

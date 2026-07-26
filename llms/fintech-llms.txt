@@ -1,0 +1,18 @@
+# Fin
+
+> Fin enables users and businesses to move millions of dollars instantly—whether to other Fin users, directly into bank accounts, or across crypto rails. It provides business-grade payment rails that feel like a payment app, not crypto.
+
+Key capabilities:
+- **Instant Settlement:** Global settlement in seconds, not days.
+- **High Value:** Engineered for moving millions of dollars.
+- **Asset Support:** Native support to deposit/withdraw to bank accounts, plus send/receive USDT, USDC, ETH, & BTC.
+- **Abstraction:** Users interact with a clean fintech interface, while Fin handles the complex crypto rails in the background.
+
+## Core Information
+- [Home](https://www.fin.tech/): The main landing page containing the product vision, investor list (Sequoia, Multicoin, Pantera, etc.), and team background.
+- [Careers](https://jobs.ashbyhq.com/fin): Current open roles in engineering and product.
+
+## Legal & Compliance
+- [Terms of Service](https://www.fin.tech/tos): User agreements, transaction limits, and acceptable use policies.
+- [Privacy Policy](https://www.fin.tech/privacy): Data handling and user privacy protections.
+
